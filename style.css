@@ -7,7 +7,16 @@ h1{font-size:50px}
 .orange-color{
 color: orange;
 }
-section{
+.text-decoration{
+color: #db1bdb;
+}
+.exclamatory{
+color: #ff0000;
+}
+.funArea-head{
+text-align: center;
+}
+.flexible-container{
 display: flex;
 margin-bottom: 120px;
 }
@@ -44,4 +53,30 @@ background-repeat: no-repeat;
 background-image: url(images/dream-bg.png);
 background-repeat: no-repeat;
 background-position:right ;
+}
+
+.funfact-area{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+.funfact-box{
+width: 40%;
+margin-left:5%;
+margin-right:5%;
+padding-left: 20px;
+box-shadow: 10px 10px 40px gray;
+border-radius: 10px;
+
+}
+#funfactLinear{
+border-left: 7px solid;
+border-image: linear-gradient(#4747f3,#f18799);
+border-image-slice: 1;
+}
+#funfactLinear2{
+    border-left: 7px solid;
+    border-image: linear-gradient(#c03f3a,#a6d4a5);
+    border-image-slice: 1;
+
 }
